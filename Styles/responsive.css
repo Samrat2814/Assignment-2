@@ -111,5 +111,20 @@
   }
   /* Extra mile section end */
 
+  /* price section start */
+  .price__grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
 
+  .section__header {
+    font-size: 28px;
+    font-weight: 800;
+    padding-top: 92px;
+  }
+
+  .section__subheader{
+    font-size: 14px;
+  /* price section end */
 }
