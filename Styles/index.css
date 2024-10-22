@@ -39,6 +39,17 @@ body {
   margin-left: 6px;
 }
 
+.btn3 {
+  padding: 8px 44px;
+  border-radius: 42px;
+  background: #e6533c;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+
 /* navbar with banner start */
 .nav-container {
   background: linear-gradient(
@@ -185,3 +196,35 @@ body {
   margin-top: 6px;
 }
 /* Change your habit section end*/
+
+/* Extra mile section start */
+.extra-mile {
+  background: #000;
+}
+
+.run-extra {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 18px;
+  background: #222;
+  padding: 30px;
+}
+
+.run-extra .left-side h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.run-extra .left-side p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 14px;
+}
+
+.run-extra .right-side img{
+    width: 100%;
+}
+/* Extra mile section end */

@@ -83,5 +83,33 @@
   .habit-tips .habit1 h4 {
     margin-top: 8px;
   }
+
+  .habit-tips .habit1 .unique {
+    margin-bottom: 32px;
+  }
   /* Change your habit section end*/
+
+  /* Extra mile section start */
+
+  .run-extra {
+    flex-direction: column;
+    padding: 15px;
+    gap: 48px;
+  }
+
+  .run-extra .left-side h2 {
+    font-size: 32px;
+  }
+
+  .run-extra .left-side p {
+    font-size: 10px;
+    margin-top: 8px;
+  }
+
+  .btn-container {
+    text-align: center;
+  }
+  /* Extra mile section end */
+
+
 }
