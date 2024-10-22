@@ -1,0 +1,118 @@
+/* google font inter and dancing script */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* shared style */
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.btn1 {
+  padding: 16px 40px;
+  border-radius: 42px;
+  background: #e6533c;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.btn2 {
+  border-radius: 42px;
+  border: 1px solid #fff;
+  padding: 16px 40px;
+  color: #fff;
+  background-color: #0f0f0f;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-left: 6px;
+}
+
+/* navbar start */
+.nav-container {
+  background-color: #232323;
+}
+
+.nav-container .first {
+  padding-top: 3.6rem;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first .left-side {
+  color: #e6533c;
+  font-size: 2.2rem;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.first .right-side {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.hamburger{
+    display: none;
+}
+
+.first .right-side p {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.first .right-side p span {
+  border-radius: 46px;
+  background: #e6533c;
+  padding: 8px 20px;
+}
+
+.second {
+  margin-top: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second .left-side h1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 110%;
+  margin-bottom: 28px;
+}
+
+.second .left-side h1 span {
+  font-family: "Dancing Script", cursive;
+}
+
+.second .left-side p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-bottom: 28px;
+}
+
+.second .right-side img{
+  width: 100%;
+}

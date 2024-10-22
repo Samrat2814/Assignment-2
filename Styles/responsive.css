@@ -1,0 +1,59 @@
+/* responsive for mobile device */
+
+/* navbar with banner start */
+@media screen and (max-width: 576px) {
+    .first .right-side{
+        display: none;
+    }
+
+    .nav-container .first {
+        padding-top: 2.6rem;
+      }
+
+    .hamburger{
+        display: block;
+        color: white;
+        cursor: pointer;
+    }
+
+    .hamburger i{
+        font-size: 22px;
+    }
+
+    .second{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .second .left-side h1{
+        font-size: 2.5rem;
+    }
+
+    .btn1 {
+        padding: 6px 16px;
+        border-radius: 42px;
+        background: #e6533c;
+        border: none;
+        color: #fff;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 22px;
+      }
+      
+      .btn2 {
+        border-radius: 42px;
+        border: 1px solid #fff;
+        padding: 6px 16px;
+        color: #fff;
+        background-color: #0f0f0f;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 22px;
+        margin-left: 6px;
+      }
+
+      .second .right-side{
+        margin-top: 48px;
+      }
+}
+/* navbar with banner end */
