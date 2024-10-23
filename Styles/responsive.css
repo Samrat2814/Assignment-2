@@ -191,6 +191,12 @@
     font-size: 10px;
   }
 
+  .meet-our-team-image {
+    padding: 1rem;
+    width: 100%;
+    margin-top: 1.6rem;
+  }
+
   /* footer section there */
   .footer-container {
     flex-direction: column;
@@ -213,4 +219,6 @@
   .first-section h3 {
     margin-bottom: .25rem;
   }
+
+
 }

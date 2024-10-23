@@ -410,7 +410,8 @@ select {
 .margin-need {
   margin-right: 320px;
   width: 190px;
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 /* end */
@@ -496,7 +497,7 @@ select {
 .second-section h4 {
   color: #fff;
   font-family: Inter;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
   margin-bottom: 2.4rem;
