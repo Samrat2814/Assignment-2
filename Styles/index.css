@@ -267,7 +267,7 @@ body {
 }
 
 .price__card h3 {
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
   margin-bottom: 1rem;
   font-size: 2rem;
   font-weight: 600;
@@ -292,12 +292,124 @@ body {
   font-weight: 900;
   padding-top: 92px;
 }
-.section__subheader{
-    color: white;
-    text-align: center;
-    margin-top: 12px;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
-    font-weight: 400;   
+.section__subheader {
+  color: white;
+  text-align: center;
+  margin-top: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
 }
 /* price section end */
+
+/* bmi section start  */
+.bmi-container {
+  background: #000;
+  padding-top: 65px;
+}
+.bmi-container h2 {
+  color: white;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+.bmi-container p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.calculator {
+  background: #222;
+  margin-top: 48px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #484848;
+  border-collapse: collapse;
+  padding: 6px 10px;
+}
+
+table {
+  width: 255px;
+  margin-top: 32px;
+}
+
+th {
+  color: white;
+  font-size: 1rem;
+}
+
+td {
+  background: #222;
+  font-size: 12px;
+}
+
+.calculate-bmi {
+  display: flex;
+  align-items: center;
+  padding: 0 95px;
+  gap: 160px;
+}
+
+.calculate-bmi .left-side h4 {
+  color: white;
+  margin-top: 34px;
+}
+
+.calculate-bmi .right-side h4 {
+  color: white;
+}
+
+input {
+  width: 220px;
+  padding: 12px 40px 12px 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  margin-top: 8px;
+}
+
+select {
+  width: 220px;
+  padding: 12px 40px 12px 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  margin-top: 8px;
+  color: rgba(252, 241, 241, 0.267);
+}
+
+.full {
+  width: 445px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  padding: 12px 40px 12px 20px;
+  
+}
+
+.calculate-bmi .right-side {
+  margin-top: 70px;
+}
+
+.submit {
+  padding: 8px 44px;
+  border-radius: 42px;
+  background: #e6533c;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.margin-need{
+  margin-right: 320px;
+  width: 190px;
+  margin-top: 10px;
+}

@@ -119,12 +119,57 @@
   }
 
   .section__header {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 800;
     padding-top: 92px;
   }
 
-  .section__subheader{
-    font-size: 14px;
-  /* price section end */
+  .section__subheader {
+    font-size: 12px;
+    /* price section end */
+  }
+
+  /* calculate bmi */
+  .calculate-bmi {
+    flex-direction: column;
+    padding: 0 0px;
+    gap: 1px;
+  }
+
+  input {
+    width: 125px;
+  }
+
+  select {
+    width: 125px;
+  }
+
+  .full {
+    width: 255px;
+  }
+
+  .submit {
+    padding: 8px 14px;
+    
+  }
+
+  .calculate-bmi .right-side {
+    margin-top: 40px;
+  }
+
+  .bmi-container h2 {
+    font-size: 32px;
+  }
+
+  .bmi-container p {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .margin-need{
+    margin-right: 0;
+    margin-top: 10px;
+  }
+  /* end */
+
 }
